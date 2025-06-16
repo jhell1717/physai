@@ -13,7 +13,7 @@ physai/
 ├── data/ # Datasets or simulation output files
 │ └── example_dataset/ # Sample datasets (e.g., fluid dynamics, heat transfer)
 │
-├── notebooks/ # Jupyter notebooks for experiments and visualizations
+├── notebooks/ # Jupyter notebooks for experiments and visualisations
 │ └── 01_intro_physicsnemo.ipynb
 │
 ├── configs/ # Config files for experiments
@@ -29,7 +29,7 @@ physai/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
