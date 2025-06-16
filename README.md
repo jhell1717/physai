@@ -1,4 +1,4 @@
-# PhysicsNemo-Learning
+# Physai
 
 A personal research and experimentation repository for exploring **Physics-Informed Machine Learning (PIML)** using the [NVIDIA PhysicsNemo](https://developer.nvidia.com/physicsnemo) framework.
 
