@@ -1,4 +1,4 @@
-# PhysicsNemo-Learning
+# PhysAi
 
 A personal research and experimentation repository for exploring **Physics-Informed Machine Learning (PIML)** using the [NVIDIA PhysicsNemo](https://developer.nvidia.com/physicsnemo) framework.
 
@@ -13,7 +13,7 @@ physai/
 ├── data/ # Datasets or simulation output files
 │ └── example_dataset/ # Sample datasets (e.g., fluid dynamics, heat transfer)
 │
-├── notebooks/ # Jupyter notebooks for experiments and visualizations
+├── notebooks/ # Jupyter notebooks for experiments and visualisations
 │ └── 01_intro_physicsnemo.ipynb
 │
 ├── configs/ # Config files for experiments
@@ -29,22 +29,21 @@ physai/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
-
+- Ubuntu OS
 - Python 3.8+
-- NVIDIA GPU (recommended)
+- NVIDIA GPU (see NVIDIA recommended)
 - [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
-- [NVIDIA NeMo](https://developer.nvidia.com/nemo)
 - [PhysicsNemo](https://developer.nvidia.com/physicsnemo)
 
 ### Installation
 
 ```bash
 # Clone this repository
-git clone https://github.com/yourusername/physicsnemo-learning.git
-cd physicsnemo-learning
+git clone https://github.com/yourusername/physai.git
+cd physai
 
 # (Optional) Create and activate a conda environment
 conda create -n physicsnemo python=3.10
