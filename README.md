@@ -42,8 +42,8 @@ physai/
 
 ```bash
 # Clone this repository
-git clone https://github.com/yourusername/physicsnemo-learning.git
-cd physicsnemo-learning
+git clone https://github.com/yourusername/physai.git
+cd physai
 
 # (Optional) Create and activate a conda environment
 conda create -n physicsnemo python=3.10
