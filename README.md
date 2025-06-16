@@ -7,7 +7,7 @@ This project is aimed at testing and learning the implementation of physics-base
 ---
 
 ## 📁 Project Structure
-
+```plaintext
 physai/
 │
 ├── data/ # Datasets or simulation output files
@@ -25,7 +25,7 @@ physai/
 ├── environment.yml # Conda environment file
 ├── .gitignore
 └── README.md # Project overview
-
+```
 
 ---
 
