@@ -21,6 +21,7 @@ from physicsnemo.sym.key import Key
 
 from physicsnemo.sym.eq.pdes.navier_stokes import NavierStokes
 from physicsnemo.sym.eq.pdes.basic import NormalDotVec
+from physicsnemo.sym.utils.io import csv_to_dict
 from physicsnemo.sym.geometry.tessellation import Tessellation
 
 
@@ -159,4 +160,17 @@ def run(cfg: PhysicsNeMoConfig) -> None:
     )
 
     domain.add_constraint(integral_continuity,'integral_continuity_2')
+
+    file_path = r'/home/jhell/Desktop/physai/examples/geometry_creation/openfoam/aneurysm_parabolicInlet_sol0.csv'
+    if os.path.exists(to_absolute_path(file_path)):
+        mapping = {
+            'Points:0':'x',
+            'Points:1':'y',
+            'Points:2':'z',
+            'U:0':'u',
+            'U:1':'v',
+            'U:2':'w',
+            'p':'p'
+        }
+        openfoam_var = csv_to
     
