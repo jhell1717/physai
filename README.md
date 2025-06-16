@@ -32,11 +32,10 @@ physai/
 ## Getting Started
 
 ### Prerequisites
-
+- Ubuntu OS
 - Python 3.8+
-- NVIDIA GPU (recommended)
+- NVIDIA GPU (see NVIDIA recommended)
 - [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
-- [NVIDIA NeMo](https://developer.nvidia.com/nemo)
 - [PhysicsNemo](https://developer.nvidia.com/physicsnemo)
 
 ### Installation
